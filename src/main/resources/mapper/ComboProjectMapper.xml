@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wuhulala.loginsystem.dal.mapper.ComboProjectMapper">
+    <!-- 批量插入user表中 -->
+    <insert id="insertList">
+        INSERT INTO
+        tb_combo_project(combo_id,project_id)
+        VALUES
+        <foreach collection="list" item="item" index="index" separator=",">
+            ( #{item.comboId},#{item.projectId})
+        </foreach>
+    </insert>
+</mapper>
