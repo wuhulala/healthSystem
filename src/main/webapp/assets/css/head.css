@@ -1,0 +1,20 @@
+.nav-username{
+    color: white;
+}
+
+.nav-dropdown{
+    background-color: #1d2939;
+}
+
+.nav-dropdown li a{
+    color: white;
+}
+
+.nav-dropdown li a:hover{
+    color: white;
+    background-color: #1caf9a;
+}
+
+.navbar-inverse{
+    background-color: #1d2939;
+}

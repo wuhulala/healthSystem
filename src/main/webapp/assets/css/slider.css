@@ -1,0 +1,41 @@
+body{
+    font-family: 'Microsoft YaHei';
+
+}
+#main-nav{
+    background-color:  #1d2939;
+    color: white;
+
+}
+#main-nav.nav-tab.nav-stacked > li > a {
+    background:#1d2939;
+    color:white;
+}
+#main-nav.nav-tab.nav-stacked > li > a > span {
+    color:white;
+}
+
+#main-nav.nav-tab.nav-stacked > li.active > a, #main-nav.nav-tab.nav-stacked > li > a:hover {
+    color:  #1d2939;
+    background: #1caf9a;
+}
+
+#main-nav.nav-tab.nav-stacked > li.active > a, #main-nav.nav-tab.nav-stacked > li > a:hover > span {
+    color: #1d2939;
+}
+
+.secondmenu li a {
+    text-align: center;
+
+    color:white;
+}
+
+.secondmenu li a:hover{
+    color:#1caf9a;
+    background-color: #1d2939;
+}
+
+.secondmenu li a.active{
+    color:#1caf9a;
+    background-color: #1d2939;
+}
